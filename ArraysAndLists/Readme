@@ -1,0 +1,32 @@
+In python, array and list are different.
+
+Array vs List in Python ?
+In default, Python uses Lists as default data structure inside [].
+However, Array needs to be imported and declared in Python.
+
+Conclusion: Default [] is List == Vector in c++, Array needs import and delcaration.
+
+Vector in C++ vs Python List ?
+In python, List is not totally Vector in c++.
+List allows Different Data Type stored inside, meanwhile Vector C++ can be one data type only.
+
+Powerful Man, Python the king of Language :)
+
+Python Random Indexing ? What is it ?
+array=[10,3,7,5]
+print(array[:]) #print 10
+print(array[1:3]) #print index from 1 to 2
+
+What is random access ?
+
+Why there is negative index ?
+negative is a unique indexing way of python.
+It allows you to access last element without knowing the size of array.
+-1 the last element, -2 second last element, and so on.
+
+Why no list in Python ?
+List takes a lot of memory as they are dynamic array.
+Each pointer (Or named: References) is taking 8 bytes in size, not counting dynamic memory size.
+
+Solution: Use NumPy library to import proper array.
+

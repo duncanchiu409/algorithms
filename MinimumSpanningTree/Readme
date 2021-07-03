@@ -1,0 +1,28 @@
+Minimum Spanning Tree
+
+What is a spanning tree ?
+Spanning Tree is a tree and path that connects all vertices in the connected graph G with no cycle.
+
+How much spanning tree in a graph G ?
+G = { V , E } V = vertices, E = edges.
+Possible Combinations is E C V-1  -  no.of.cycles  C stands for combinations.
+
+What is a cycle in graph ?
+A cycle is a sub-path that form acyclic graph. Where a vertex is accessed second time in the path.
+
+What is the Minimum Spanning Tree (MST) ?
+MST is the spanning tree that have the smallest total weight.
+
+Easy Approach:
+Find all combinations' total weight and compare.
+Return the smallest weight one.
+
+Algorithms Applies:
+Kruskal's Algorithm, Prim's Algorithm, Boruvka's Algorithm
+
+Is there example of algorithm's application ?
+Network Company uses it a lot.
+Its been used for graphing the shortest pipes and wires to connect users.
+The weight/cost of an edge will be the cost building pipes and wires respected with length.
+
+https://www.youtube.com/watch?v=4ZlRH0eK-qQ
